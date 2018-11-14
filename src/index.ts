@@ -19,7 +19,7 @@ if (typeof PRERENDER === 'undefined') {
   ga('set', 'transport', 'beacon');
   ga('send', 'pageview');
     // Load the GA script
-  const s = document.createElement('script');
-  s.src = 'https://www.google-analytics.com/analytics.js';
-  document.head!.appendChild(s);
+  // const s = document.createElement('script');
+  // s.src = 'https://www.google-analytics.com/analytics.js';
+  // document.head!.appendChild(s);
 }
